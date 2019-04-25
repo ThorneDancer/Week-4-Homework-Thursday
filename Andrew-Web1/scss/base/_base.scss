@@ -10,6 +10,10 @@ ul {
   }
 }
 
+a{
+  text-decoration: none;
+}
+
 .content-grid {
   display: grid;
   grid-template-columns: 10px auto 10px;
@@ -17,5 +21,13 @@ ul {
 
   .content-grid-item {
     grid-area: content;
+  }
+}
+
+.section-content{
+  padding: 56px 0 50px;
+
+  h1{
+    margin-bottom: 30px;
   }
 }

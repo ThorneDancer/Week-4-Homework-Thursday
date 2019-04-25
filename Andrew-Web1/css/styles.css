@@ -17,12 +17,20 @@ ul {
   ul li {
     list-style: none; }
 
+a {
+  text-decoration: none; }
+
 .content-grid {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". content ."; }
   .content-grid .content-grid-item {
     grid-area: content; }
+
+.section-content {
+  padding: 56px 0 50px; }
+  .section-content h1 {
+    margin-bottom: 30px; }
 
 /* ================================
         Normalize css
@@ -361,10 +369,10 @@ p {
 ================================ */
 header {
   background-color: #fff;
-  padding-bottom: 120px; }
+  padding: 10px 0; }
 
 #burger {
-  padding-left: 150px; }
+  text-align: right; }
 
 /* ================================
         Footer css
@@ -396,57 +404,47 @@ footer {
 ================================ */
 #hero-1 {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  background-image: url("../img/hero/hero-1.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 62px 0 107px; }
   #hero-1 #blue-order {
     background-color: #02ABF8;
     border: 0;
-    padding: 10px 5px;
+    border-radius: 2px;
+    padding: 12px 9px;
     color: #fff; }
   #hero-1 #read-more {
     color: #fff;
     border: 0; }
 
-#hero1-image {
-  background-image: url("../img/hero/hero-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 312px;
-  width: 100%;
-  background-position: center;
-  margin-top: -200px; }
-
 #hero-2 {
   text-align: center;
-  background-color: #F5F5F5;
-  padding-bottom: 20px; }
+  background-color: #F5F5F5; }
+  #hero-2 img {
+    margin: 24px 0;
+    width: 100%; }
   #hero-2 p {
     color: #9C9C9F; }
-
-#hero2-image {
-  background-color: #F5F5F5;
-  background-image: url("../img/hero/hero-2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 261px;
-  width: 298px;
-  margin-top: -570px;
-  margin-left: 35px;
-  margin-bottom: 380px; }
-
-#mobile-text {
-  text-align: left;
-  margin-top: 340px;
-  margin-bottom: 40px; }
+  #hero-2 article {
+    text-align: left;
+    margin-top: 16px; }
+    #hero-2 article p {
+      padding: 23px 0 34px; }
 
 /* ================================
         Assets
 ================================ */
 #assets {
-  text-align: center;
-  padding: 70px 0; }
+  text-align: center; }
+  #assets ul li h2 {
+    padding: 18px 0 7px; }
   #assets p {
-    color: #9C9C9F; }
+    color: #9C9C9F;
+    margin: 23px 0 37px; }
+  #assets img {
+    padding-bottom: 20px; }
 
 /* ================================
         About Us
