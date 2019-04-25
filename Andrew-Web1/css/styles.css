@@ -449,23 +449,23 @@ footer {
 /* ================================
         About Us
 ================================ */
-#about h1 {
-  text-align: center; }
-
-#about p {
-  color: #9C9C9F; }
-  #about p span {
+.about-quote {
+  margin-top: 20px;
+  background-color: #F5F5F5;
+  padding: 31px 0 16px; }
+  .about-quote span {
     color: #02ABF8; }
 
-#ellen {
-  background-color: #F5F5F5;
-  margin: 40px -10px 20px;
-  padding: 20px; }
+#about {
+  background-color: #fff;
+  padding-bottom: 20px; }
+  #about h1 {
+    text-align: center; }
+  #about p {
+    color: #9C9C9F; }
 
 #fred {
-  background-color: #F5F5F5;
-  margin: 20px -10px 40px;
-  padding: 20px; }
+  margin-bottom: 50px; }
   #fred a {
     color: #9C9C9F;
     border: 0px; }
@@ -474,41 +474,41 @@ footer {
         Pricing
 ================================ */
 #price {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: #F5F5F5;
-  grid-template-areas: ". title ." ". value ." ". benefits .";
-  padding-bottom: 50px; }
-  #price > #cost {
-    grid-area: title;
-    text-align: center;
-    padding: 60px 0 20px;
-    color: #9C9C9F; }
-    #price > #cost h1 {
-      color: #000; }
-    #price > #cost span {
-      color: #02ABF8; }
-  #price > #total {
+  background-color: #F5F5F5; }
+  #price h1 {
+    text-align: center; }
+  #price p {
+    color: #9C9C9F;
+    padding-bottom: 10px; }
+  #price #link-email {
+    color: #02ABF8; }
+  #price section {
     background-color: #02ABF8;
     color: #fff;
-    grid-area: value;
-    text-align: center;
-    padding: 20px 0; }
-  #price > ul {
+    padding: 26px 0 30px;
+    margin: 16px 0 -8px; }
+    #price section h1 {
+      margin: 0; }
+  #price ul {
     background-color: #fff;
-    grid-area: benefits;
-    padding-top: 20px;
-    padding-bottom: 70px; }
+    padding: 10px;
+    padding-bottom: 57px; }
+  #price li {
+    padding-top: 35px; }
+    #price li .check {
+      padding-right: 6px; }
+    #price li .info {
+      padding-left: 11px; }
 
 /* ================================
         Order Now
 ================================ */
 #order {
   background-color: #02ABF8;
-  color: #fff;
-  padding: 20px 0 40px; }
+  color: #fff; }
 
-a {
+#final-order {
+  text-align: center;
   color: #fff;
   border: 2px solid #fff;
-  padding: 10px 30px; }
+  padding: 17px 38px; }

@@ -1,40 +1,47 @@
 /* ================================
         Pricing
 ================================ */
-#price {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-  background-color: $lightGray;
-  grid-template-areas: ". title ." ". value ." ". benefits .";
-  padding-bottom: 50px;
+#price{
+    background-color: $lightGray;
 
-  > #cost {
-    grid-area: title;
-    text-align: center;
-    padding: 60px 0 20px;
-    color: $textGray;
-
-    h1 {
-      color: $black;
+    h1{
+      text-align: center;
     }
 
-    span {
+    p{
+        color: $textGray;
+        padding-bottom: 10px;
+    }
+
+    #link-email{
       color: $lightBlue;
     }
-  }
 
-  > #total {
-    background-color: $lightBlue;
-    color: $white;
-    grid-area: value;
-    text-align: center;
-    padding: 20px 0;
-  }
+    section{
+        background-color: $lightBlue;
+        color: $white;
+        padding: 26px 0 30px;
+        margin: 16px 0 -8px;
+        h1{
+            margin: 0;
+        }
+    }
 
-  > ul {
-    background-color: $white;
-    grid-area: benefits;
-    padding-top: 20px;
-    padding-bottom: 70px;
-  }
+    ul{
+        background-color: $white;
+        padding: 10px;
+        padding-bottom: 57px;
+    }
+
+    li{
+      padding-top: 35px;
+
+      .check{
+        padding-right: 6px;
+      }
+
+      .info{
+        padding-left: 11px;
+      }
+    }
 }

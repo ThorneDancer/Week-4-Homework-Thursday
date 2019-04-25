@@ -1,31 +1,30 @@
 /* ================================
         About Us
 ================================ */
-#about {
-  h1 {
+.about-quote{
+  margin-top: 20px;
+  background-color: $lightGray;
+  padding: 31px 0 16px;
+
+  span{
+    color: $lightBlue;
+  }
+}
+
+#about{
+  background-color: $white;
+  padding-bottom: 20px;
+  h1{
     text-align: center;
   }
 
-  p {
+  p{
     color: $textGray;
-
-    span {
-      color: $lightBlue;
-    }
   }
 }
 
-#ellen {
-  background-color: $lightGray;
-  margin: 40px -10px 20px;
-  padding: 20px;
-}
-
 #fred {
-  background-color: $lightGray;
-  margin: 20px -10px 40px;
-  padding: 20px;
-
+    margin-bottom: 50px;
   a {
     color: $textGray;
     border: 0px;
