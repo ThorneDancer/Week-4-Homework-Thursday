@@ -1,0 +1,40 @@
+/* ================================
+        Pricing
+================================ */
+#price {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  background-color: $lightGray;
+  grid-template-areas: ". title ." ". value ." ". benefits .";
+  padding-bottom: 50px;
+
+  > #cost {
+    grid-area: title;
+    text-align: center;
+    padding: 60px 0 20px;
+    color: $textGray;
+
+    h1 {
+      color: $black;
+    }
+
+    span {
+      color: $lightBlue;
+    }
+  }
+
+  > #total {
+    background-color: $lightBlue;
+    color: $white;
+    grid-area: value;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  > ul {
+    background-color: $white;
+    grid-area: benefits;
+    padding-top: 20px;
+    padding-bottom: 70px;
+  }
+}
