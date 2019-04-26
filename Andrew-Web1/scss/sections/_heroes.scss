@@ -9,23 +9,47 @@
   background-position: center;
   padding: 62px 0 107px;
 
+  h1{
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: rem-calc(26);
+    line-height: rem-calc(32);
+  }
+
+
   #blue-order {
     background-color: $lightBlue;
     border: 0;
     border-radius: 2px;
     padding: 12px 9px;
     color: $white;
+    font-weight: 700;
+    font-size: rem-calc(14.5);
   }
 
   #read-more {
     color: $white;
     border: 0;
+    font-weight: 700;
+    font-size: rem-calc(13);
   }
 }
 
 #hero-2 {
   text-align: center;
   background-color: $lightGray;
+
+  h1{
+    font-weight: 700;
+    font-size: rem-calc(30);
+  }
+
+  h2{
+    color: $textPurple;
+    font-weight: 700;
+    font-size: rem-calc(20.5);
+  }
+
   img{
     margin: 24px 0;
     width: 100%;
@@ -33,6 +57,9 @@
 
   p {
     color: $textGray;
+    font-weight: 700;
+    font-size: rem-calc(14.3);
+    line-height: rem-calc(26);
   }
 
 

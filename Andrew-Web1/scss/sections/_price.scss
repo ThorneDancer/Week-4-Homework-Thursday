@@ -6,11 +6,17 @@
 
     h1{
       text-align: center;
+      font-weight: 700;
+      font-size: rem-calc(30);
     }
 
     p{
+        text-align: center;
         color: $textGray;
         padding-bottom: 10px;
+        font-weight: 700;
+        font-size: rem-calc(14.3);
+        line-height: rem-calc(26);
     }
 
     #link-email{
@@ -24,6 +30,9 @@
         margin: 16px 0 -8px;
         h1{
             margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: rem-calc(32);
         }
     }
 
@@ -34,6 +43,8 @@
     }
 
     li{
+      font-weight: 700;
+      font-size: rem-calc(14.8);
       padding-top: 35px;
 
       .check{

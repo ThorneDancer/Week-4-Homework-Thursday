@@ -7,26 +7,35 @@ footer {
   background-color: $white;
   color: $textGray;
   grid-template-areas: ". cruquius netherlands email ." " . tag tag tag .";
+  margin-bottom: 40px;
 
   > #cruquius {
     grid-area: cruquius;
     text-align: left;
+    font-weight: 700;
+    font-size: rem-calc(11);
   }
 
   > #netherlands {
     grid-area: netherlands;
     text-align: center;
+    font-weight: 700;
+    font-size: rem-calc(11);
   }
 
   > #email {
     grid-area: email;
     text-align: right;
     color: $lightBlue;
+    font-weight: 700;
+    font-size: rem-calc(11);
   }
 
   > #tag {
     grid-area: tag;
     text-align: center;
+    font-weight: 700;
+    font-size: rem-calc(12.2);
   }
 
   span {

@@ -16,17 +16,52 @@
   padding-bottom: 20px;
   h1{
     text-align: center;
+    font-weight: 700;
+    font-size: rem-calc(30);
+  }
+
+  p{
+    text-align: justify;
+    color: $textGray;
+    font-weight: 700;
+    font-size: rem-calc(14.3);
+    line-height: rem-calc(26);
+  }
+}
+
+#ellen{
+  h2{
+    font-weight: 700;
+    font-size: rem-calc(18.8);
   }
 
   p{
     color: $textGray;
+    font-weight: 700;
+    font-size: rem-calc(14.3);
+    line-height: rem-calc(26);
   }
 }
 
 #fred {
     margin-bottom: 50px;
+
+    h2{
+      font-weight: 700;
+      font-size: rem-calc(18.8);
+    }
+
+    p{
+      color: $textGray;
+      font-weight: 700;
+      font-size: rem-calc(14.3);
+      line-height: rem-calc(26);
+    }
+
   a {
     color: $textGray;
     border: 0px;
+    font-weight: 700;
+    font-size: rem-calc(11.2);
   }
 }

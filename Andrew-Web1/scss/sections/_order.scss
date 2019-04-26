@@ -4,6 +4,18 @@
 #order {
   background-color: $lightBlue;
   color: $white;
+
+  h1{
+    font-weight: 700;
+    font-size: rem-calc(18);
+  }
+
+  p{
+    font-weight: 700;
+    font-style: oblique;
+    font-size: rem-calc(12.7);
+    line-height: rem-calc(16);
+  }
 }
 
 #final-order{
@@ -11,4 +23,6 @@
   color: $white;
   border: 2px solid $white;
   padding: 17px 38px;
+  font-weight: 700;
+  font-size: rem-calc(12.5);
 }
