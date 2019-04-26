@@ -345,7 +345,8 @@ template {
 ================================ */
 body {
   font-family: 'Open Sans', sans-serif; }
-  body h1, body h2 {
+  body h1,
+  body h2 {
     font-family: 'Roboto Slab', serif; }
 
 h1,
@@ -533,7 +534,7 @@ footer {
     line-height: 1.625rem; }
   #fred a {
     color: #9C9C9F;
-    border: 0px;
+    border: 0;
     font-weight: 700;
     font-size: 0.7rem; }
 
@@ -567,8 +568,7 @@ footer {
       font-size: 2rem; }
   #price ul {
     background-color: #fff;
-    padding: 10px;
-    padding-bottom: 57px; }
+    padding: 10px 10px 57px; }
   #price li {
     font-weight: 700;
     font-size: 0.925rem;

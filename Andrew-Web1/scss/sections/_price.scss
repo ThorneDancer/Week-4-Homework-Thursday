@@ -1,58 +1,58 @@
 /* ================================
         Pricing
 ================================ */
-#price{
-    background-color: $lightGray;
+#price {
+  background-color: $lightGray;
 
-    h1{
-      text-align: center;
-      font-weight: 700;
-      font-size: rem-calc(30);
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: rem-calc(30);
+  }
+
+  p {
+    text-align: center;
+    color: $textGray;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: rem-calc(14.3);
+    line-height: rem-calc(26);
+  }
+
+  #link-email {
+    color: $lightBlue;
+  }
+
+  section {
+    background-color: $lightBlue;
+    color: $white;
+    padding: 26px 0 30px;
+    margin: 16px 0 -8px;
+
+    h1 {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      font-size: rem-calc(32);
+    }
+  }
+
+  ul {
+    background-color: $white;
+    padding: 10px 10px 57px;
+  }
+
+  li {
+    font-weight: 700;
+    font-size: rem-calc(14.8);
+    padding-top: 35px;
+
+    .check {
+      padding-right: 6px;
     }
 
-    p{
-        text-align: center;
-        color: $textGray;
-        padding-bottom: 10px;
-        font-weight: 700;
-        font-size: rem-calc(14.3);
-        line-height: rem-calc(26);
+    .info {
+      padding-left: 11px;
     }
-
-    #link-email{
-      color: $lightBlue;
-    }
-
-    section{
-        background-color: $lightBlue;
-        color: $white;
-        padding: 26px 0 30px;
-        margin: 16px 0 -8px;
-        h1{
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-            font-size: rem-calc(32);
-        }
-    }
-
-    ul{
-        background-color: $white;
-        padding: 10px;
-        padding-bottom: 57px;
-    }
-
-    li{
-      font-weight: 700;
-      font-size: rem-calc(14.8);
-      padding-top: 35px;
-
-      .check{
-        padding-right: 6px;
-      }
-
-      .info{
-        padding-left: 11px;
-      }
-    }
+  }
 }
